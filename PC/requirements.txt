@@ -1,0 +1,58 @@
+# OpenAI Whisper for Speech Recognition
+openai-whisper>=20230314
+
+# PyTorch (required by Whisper)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Transformers library for M2M-100 translation
+transformers>=4.30.0
+
+# ONNX Runtime for optimized inference
+onnxruntime>=1.15.0
+onnxruntime-gpu>=1.15.0  # GPU acceleration (optional)
+
+# Audio processing
+PyAudio>=0.2.13
+sounddevice>=0.4.6
+librosa>=0.10.0
+numpy>=1.24.0
+
+# GUI framework
+PyQt5>=5.15.0
+PyQt5-sip>=12.11.0
+
+# Web communication
+fastapi>=0.100.0
+websockets>=11.0.0
+uvicorn>=0.23.0
+aiofiles>=23.0.0
+
+# Data processing
+pandas>=2.0.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# HTTP client
+requests>=2.31.0
+httpx>=0.24.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+
+# Logging
+loguru>=0.7.0
+
+# Utilities
+pydantic>=2.0.0
+click>=8.1.0
+tqdm>=4.65.0
+pillow>=10.0.0
+
+# Development
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.4.0
